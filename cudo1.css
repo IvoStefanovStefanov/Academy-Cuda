@@ -3,13 +3,14 @@
 *{
     margin: 0px;
 }
+body{
+    width: 1440px;
+}
 .home{
     background-color: #87509c;
-    width: 1440px;
-    height: 596px;
     color: #f7f3ea;
 }
-img{
+.home_header img{
     padding-left: 211px;
     padding-top: 56px;
 }
@@ -49,16 +50,92 @@ img{
     border-radius: 4px;
     background-color: #eb7d4b;
    margin-left: 574px;
+    margin-bottom: 145px;
 }
 .service{
     font-family: 'Titillium Web', sans-serif;
     background-color: #17c2a4;
     text-align: center;
+    color: #ffffff;
 }
 .service__type{
-    display: flex;
+     display: flex;
+     margin-top: 79px;
+    justify-content: center;
+ }
+.service__type1{
+   width: 173px;
+    margin-left: 90px;
+}
+.text-container{
+    margin-bottom: 128px;
+}
+.text-container h4{
+    margin-top: 56px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    width: 194px;
+}
+.service__header{
+    padding-top: 120px;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+hr{
+    width: 87px;
+    height: 4px;
+    opacity: 0.15;
+    background-color: #000000;
+    margin-left: 50%;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.service__description{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    width: 603px;
+    height: 45px;
+    margin-left: 419px;
+}
+.service--team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+.service__header--team{
+
+    font-size: 41.5px;
+    letter-spacing: 4.15px;
+}
+.service__description--team{
+width: 654px;
 
 }
-/*.service__type img{*/
-    /*padding-left: 100px;*/
-/*}*/
+.dot{
+    height: 200px;
+    width: 200px;
+    background-color: #878787;
+    border-radius: 50%;
+}
+.text-container--team{
+    margin-bottom: 0px;
+}
+.text-container--team{
+    margin-bottom: 0px;
+}
+.title{
+    color: #30bae7;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.icons{
+    color: #878787;
+    margin-top: 23px;
+    margin-bottom: 128px;
+    width: 32px;
+    height: 32px;
+    object-fit: contain
+}
