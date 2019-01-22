@@ -89,7 +89,7 @@ hr{
     height: 4px;
     opacity: 0.15;
     background-color: #000000;
-    margin-left: 50%;
+    margin-left: 675px;
     margin-top: 23px;
     margin-bottom: 23px;
 }
@@ -138,4 +138,104 @@ width: 654px;
     width: 32px;
     height: 32px;
     object-fit: contain
+}
+.service--aboutUs{
+    background-color: #d74680;
+}
+.dot--aboutUs{
+    height: 96px;
+    width: 96px;
+}
+.service__type1--aboutUs{
+    width: 600px;
+}
+.service__type1--FirstRow, .service__type1--SecondRow{
+    width: 600px;
+     display: flex;
+    margin-left: 27px;
+ }
+.service__type1--FirstRow p, .service__type1--SecondRow p{
+    width: 385px;
+    margin-left: 48px;
+    text-align: left;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.42px;
+}
+.name{
+    text-align: left;
+    margin-left: 171px;
+    margin-top: 23px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.title--aboutUs, .title--SecondRow {
+    text-align: left;
+    margin-left: 171px;
+    margin-top: 0;
+    color: #ffdd99;
+}
+.title--SecondRow{
+    margin-bottom: 129px;
+}
+.service--getInTouch{
+    background-color: #3c5499;
+    height: 819px;
+}
+.getInTouch{
+   color: #273a71;
+}
+.service__description--getInTouch{
+    width: 782px;
+    height: 19px;
+}
+.form__firstRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+}
+.form__name, .form__email{
+    width: 414px;
+    height: 56px;
+    font-size: 18px;
+    background: #273a71;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.flex1{
+      position: relative;
+      margin-left: 290px;
+      margin-right: 32px;
+  }
+.flex2{
+    position: relative;
+    margin-right: 290px;
+}
+.cur{
+    position: absolute;
+    padding: 16px 297px 20px 25px;
+    width: 92px;
+    height: 14px;
+    font-size: 16px;
+}
+.form__secondRow{
+    position: relative;
+}
+.form__message{
+    width: 860px;
+    height: 200px;
+    margin-top: 27px;
+    background: #273a71;
+    border: none;
+    border-radius: 3px;
+}
+.cur__message{
+    margin-top: 27px;
+    position: absolute;
+    width: 114px;
+    height: 18px;
+    padding: 24px 721px 158px 25px;
 }
