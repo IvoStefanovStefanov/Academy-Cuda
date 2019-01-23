@@ -10,47 +10,49 @@ body{
     background-color: #87509c;
     color: #f7f3ea;
 }
-.home_header img{
+.home__header img{
     padding-left: 211px;
     padding-top: 56px;
 }
-.home_header ul{
+.home__header ul{
     display: inline-flex;
     padding-left: 400px;
 }
-.home_header li{
+.home__header li{
     list-style-type: none;
     padding-left: 50px;
     text-transform: uppercase;
 }
-.home_header li a{
+.home__header li a{
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
      color: #f7f3ea;
  }
-.home_header li a:hover{
-    width: 77px;
-    height: 32px;
+.home__header li a:hover{
+    padding: 10px 17px 9px 17px;
+    border-radius: 4px;
     background-color: #643a79;
 }
-.header_content{
+.header__content{
     font-family: 'Titillium Web', sans-serif;
 }
-.home_content h1{
+.home__content h1{
     margin: 0px;
     text-align: center;
     font-size: 42px;
     padding: 146px 267px 54px 267px;
 }
-.home_content button{
+.home__button{
     color: #f7f3ea;
     font-size: 18px;
     width: 293px;
     height: 70px;
     border-radius: 4px;
     background-color: #eb7d4b;
-   margin-left: 574px;
+    margin-left: 574px;
     margin-bottom: 145px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
 }
 .service{
     font-family: 'Titillium Web', sans-serif;
@@ -105,15 +107,13 @@ hr{
     color: #3c4761;
 }
 .service__header--team{
-
     font-size: 41.5px;
     letter-spacing: 4.15px;
 }
 .service__description--team{
-width: 654px;
-
+    width: 654px;
 }
-.dot{
+.person_pic{
     height: 200px;
     width: 200px;
     background-color: #878787;
@@ -142,7 +142,7 @@ width: 654px;
 .service--aboutUs{
     background-color: #d74680;
 }
-.dot--aboutUs{
+.person_pic--aboutUs{
     height: 96px;
     width: 96px;
 }
@@ -207,14 +207,14 @@ width: 654px;
 }
 .flex1{
       position: relative;
-      margin-left: 290px;
+      margin-left: 470px;
       margin-right: 32px;
   }
 .flex2{
     position: relative;
     margin-right: 290px;
 }
-.cur{
+.form__text{
     position: absolute;
     padding: 16px 297px 20px 25px;
     width: 92px;
@@ -223,6 +223,7 @@ width: 654px;
 }
 .form__secondRow{
     position: relative;
+    margin-left: 180px;
 }
 .form__message{
     width: 860px;
@@ -238,4 +239,33 @@ width: 654px;
     width: 114px;
     height: 18px;
     padding: 24px 721px 158px 25px;
+}
+.home__button--getInTouch{
+    background-color: #30bae7;
+    margin: 59px 573px 115px 574px;
+}
+.form__symbol{
+    color: red;
+}
+.footer{
+    background-color: #344b8e;
+}
+.footer ul{
+    padding-left: 0;
+    display: inline-flex;
+    margin: 49px 251px 38px 251px ;
+}
+.footer ul li{
+     list-style-type: none;
+     padding-right: 50px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Titillium Web Semibold', sans-serif;
+    letter-spacing: 0.48px;
+}
+.footer ul li a:hover{
+    color: #30bae7;
 }
